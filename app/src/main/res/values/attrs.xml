@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="bgcolor" format="color"/>
+    <attr name="linechartcolor" format="color"/>
+    <attr name="txtcolor" format="color"/>
+    <attr name="btnbgcolor" format="color"/>
+</resources>
