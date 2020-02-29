@@ -1,6 +1,6 @@
 package com.example.bitcoingraph.di
 
-import com.example.bitcoingraph.MainActivity
+import com.example.bitcoingraph.presantation.MainActivity
 import dagger.Subcomponent
 
 @ActivityScope
