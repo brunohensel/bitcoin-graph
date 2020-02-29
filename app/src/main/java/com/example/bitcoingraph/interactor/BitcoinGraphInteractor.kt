@@ -3,9 +3,8 @@ package com.example.bitcoingraph.interactor
 import com.example.bitcoingraph.data.BitcoinApi
 import com.example.bitcoingraph.data.BitcoinData
 import io.reactivex.Observable
-import javax.inject.Inject
 
-class BitcoinGraphInteractor @Inject constructor(private val data: BitcoinApi) {
+class BitcoinGraphInteractor(private val data: BitcoinApi) {
 
     fun getChartData(): Observable<BitcoinGraphState> =
         data.getBitcoinData()
